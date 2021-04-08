@@ -192,6 +192,10 @@ footer {
     color: #70757a;
 }
 
+.bottom-footer .last-1 {
+    display: none;
+}
+
 .offer-text {
     display: flex;
     justify-content: center;

@@ -45,7 +45,7 @@ body {
 
 .top-nav ul li a {
     font-size: 13px;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
     font-weight: 600;
 }
@@ -53,10 +53,12 @@ body {
 .top-nav ul li:nth-child(1) {
     margin-right: 10px;
 }
+
 .top-nav ul li:nth-child(3) {
     margin-right: 0px !important;
 }
-.top-nav ul li:last-child{
+
+.top-nav ul li:last-child {
     margin-right: 10px;
 }
 
@@ -76,19 +78,21 @@ body {
     font-size: 70px;
     /* text-transform: capitalize; */
     text-align: center;
-    
     letter-spacing: -8px;
 }
 
 .google-name .g {
     color: #4285f4;
 }
+
 .google-name .o {
     color: #ea4335;
 }
+
 .google-name .oo {
     color: #fbbc05;
 }
+
 .google-name .l {
     color: #34a853;
 }
@@ -104,7 +108,6 @@ body {
     padding-left: 14px;
     border-radius: 24px;
     height: 44px;
-
 }
 
 .button-holder {
@@ -118,7 +121,7 @@ body {
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
@@ -162,11 +165,12 @@ body {
 footer {
     background: #f2f2f2;
 }
+
 .top-footer {
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
 }
 
 .bottom-footer {
@@ -175,7 +179,8 @@ footer {
     justify-content: space-between;
 }
 
-.bottom-footer .first, .bottom-footer .last {
+.bottom-footer .first,
+.bottom-footer .last {
     display: flex;
 }
 
@@ -201,8 +206,13 @@ footer {
     justify-content: center;
 }
 
-@media(max-width: 425px) {
+@media(max-width: 768px) {
+    .bottom-footer .second {
+        display: none;
+    } 
+}
 
+@media(max-width: 425px) {
     .google-name {
         margin-top: 30px;
     }
@@ -213,36 +223,31 @@ footer {
     .bottom-footer {
         flex-direction: column;
     }
-
     .bottom-footer a {
         font-size: 14px;
         padding: 10px;
     }
-    .bottom-footer .first, .bottom-footer .second, .button-holder {
+    .bottom-footer .first,
+    .bottom-footer .second,
+    .button-holder {
         display: none;
     }
-
     .bottom-footer .last {
         margin: 0 auto;
     }
-
     .bottom-footer .last-1 {
         display: flex;
         margin: 0 auto;
     }
-
     .offer-text {
         flex-direction: column;
     }
-
     .google-name img {
         width: 150px;
     }
-
     .lang-links {
         margin-top: 20px;
     }
-
     .offer-text a {
         font-size: 14px;
     }
